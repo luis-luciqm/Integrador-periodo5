@@ -1,5 +1,6 @@
-import './styles/global.css';
+import './styles/global.scss';
+import { Teste } from './components/Teste'
 
 export function App() {
-    return <h1>Hello, Wolrd</h1>
+    return <Teste />
 }
