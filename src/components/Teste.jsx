@@ -1,3 +1,3 @@
 export function Teste() {
-    return <h1>My first app in ReactJS</h1>
+    return <h1>Sou o componente Teste e vim aqui dizer oi</h1>
 }

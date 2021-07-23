@@ -1,12 +1,13 @@
 import './styles/global.scss';
 import { Teste } from './components/Teste'
+import Button from '@material-ui/core/Button';
 
 export function App() {
     return (
         <div>
-            <h1>This is a new project</h1>
+            <Button className="mainButton" variant="contained">Default</Button>
             <Teste />
-            <h2>End a project</h2>
+            
         </div>
     )
 }
