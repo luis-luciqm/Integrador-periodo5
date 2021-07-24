@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 export function App() {
     return (
         <div>
-            <Button className="mainButton" onMouseEnter={alert('oi')} variant="contained">Cadastrar Usuário</Button>
+            <Button className="mainButton" variant="contained">Cadastrar Usuário</Button>
             <Teste />
             
         </div>
